@@ -5,7 +5,7 @@ for _ in range(t):
         print(-1)
         continue
 
-    # 最小数量：尽量用 6 推进器
+
     b = n // 6
     found = False
     while b >= 0:
@@ -21,8 +21,8 @@ for _ in range(t):
         print(-1)
         continue
 
-    # 最大数量：尽量用 4 推进器
+
     a_max = n // 4
-    max_crafts = a_max  # 因为 n 是偶数，总能找到组合
+    max_crafts = a_max 
 
     print(min_crafts, max_crafts)
